@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title></title>
+    
+    <style type="text/css" media="all">
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap');
+      
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Poppins;
+        outline: none !important;
+        border: none !important;
+      }
+      
+      body{
+        min-height: 100vh;
+        background: #fdfdfd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      form{
+        width: 44rem;
+        padding: 0 2rem;
+        height: 66rem;
+        border: 1px solid #fff;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 10px 10px 30px #0001,
+                    -10px -10px 30px #fff,inset 10px 10px 30px #0001,
+                    inset -10px -10px 30px #fff;
+         
+      }
+      
+      .one{
+        width: 36rem;
+        padding: 20px 10px;
+        margin: .5em 2rem;
+        box-shadow: 6px 6px 14px #00000005,
+                    -6px -6px 14px #fff,inset 6px 6px 14px #00000005,
+                    inset -6px -6px 14px #fff;
+       font-size: 1.5rem;
+       text-transform: capitalize;
+       background: transparent;
+       border: .5px solid #fff;
+      }
+      
+      .two{
+        width: 36rem;
+        margin: 2rem;
+        height: 4rem;
+        box-shadow: 6px 6px 14px #00000005,
+                    -6px -6px 14px #fff,inset 6px 6px 14px #00000005,
+                    inset -6px -6px 14px #fff;
+      outline: none !important;
+      border: none !important;
+      }
+      
+      .three{
+        width: 17rem;
+        height: 4rem;
+        margin-top: 3rem;
+        background: transparent;
+        box-shadow: 6px 6px 14px #00000005,
+                    -6px -6px 14px #fff,inset 6px 6px 14px #00000005,
+                    inset -6px -6px 14px #fff;
+       font-size: 2rem;
+      }
+      
+      #submit{
+        margin-left: 2rem;
+        margin-right: 1rem;
+      }
+      
+  
+    </style>
+    
+    
+  </head>
+  <body>
+    
+    
+    
+    <!-- form tag -->
+    
+    <form>
+      <br />
+      <br /><br />
+      <input class="one" type="text" name="name" id="name" placeholder="enter your name" />
+      <br />
+      <input class="one" type="number" name="phone" id="phone" placeholder="enter your mobile number" />
+      <br />
+      <input class="one" type="email" name="email" id="email" placeholder="enter your email" />
+      <br />
+      <textarea class="one" name="textarea" id="textarea" placeholder="enter other info"></textarea>
+      <br />
+      <select class="one" name="select" id="select">
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="delhi">delhi</option>
+        <option value="mumbai">mumbai</option>
+        <option value="chennai">chennai</option>
+      </select>
+      <br />
+      <input class="one" type="password" name="password" id="password" placeholder="choose your password" />
+      <br />
+      
+      <input class="two" type="color" name="color" id="color" placeholder="choose 
+      your favourite color" value="red" />
+      <br />
+      <input class="three" type="submit" name="submit" id="submit" value="submit" />
+      <input class="three" type="reset" name="reset" id="reset" value="reset" />
+      
+    </form>
+    
+  </body>
+</html>
